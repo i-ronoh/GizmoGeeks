@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(61, 59, 59);
+    background-color: white;
     padding: 0%;
     margin: 0%;
     color:white;
@@ -15,7 +15,7 @@ body{
 /* NAVIGATION BAR */
 
 nav{
-    background-color: black;
+    background-color: rgb(3, 40, 44);
     display: flex;
     justify-content:space-between;
 }
@@ -26,7 +26,7 @@ nav > .titule, .menu{
 
 nav > .titule > h1{
     font-size: 50px;
-    color: white;
+    color: #db8500;
     padding: 15px;
 }
 
@@ -43,3 +43,135 @@ a, a:hover, a:focus, a:active {
     color: white;
 }
 
+
+
+
+
+/* BODY */
+
+#doodle{
+    background-image: url(../images/backdoodle.jpg);
+    background-size: cover;
+    
+}
+p{
+    height: 50vh;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: black;
+    text-decoration-color: black;
+    display: flexbox;
+    
+
+}
+
+.submit{
+  padding: 50px;
+  color: black;
+  background-color: white; 
+  border-radius: 20px;
+  font-size: 35px;
+  font-weight: 900;
+
+/* FOOTER */
+
+.footer-title{
+    background-color: rgb(24, 30, 31);
+    color: white;
+    font-size: 25px;
+    padding-left: 75px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 100;
+    height: 10vh;
+  }
+  
+  .colorh2{
+    color: #db8500;
+    font-weight: lighter;
+    font-size: 20px;
+  }
+  
+  #footer-container{
+    background-color: rgb(49, 66, 68);
+    padding-bottom:10px;
+    border-top-right-radius: 50px;
+  }
+  .footer{
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(24, 30, 31);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:auto;
+  
+  }
+  .footer-heading{
+    display: inline-flexbox;
+    padding-right: 60px;
+    padding-top: 10px;
+    font-size: 20px;
+    justify-content: center;
+    
+  }
+
+#footer-container > .footer > .footer-heading > h2{
+    display: inline-flexbox;
+    font-size: 20px;
+    font-weight: 900;
+    color: #db8500;
+    
+}
+  
+  .icons{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-heading1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.05px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 1px;
+  }
+  
+  .footer-heading h2{
+    margin-bottom: 2rem;
+    font-size: 16px;
+  
+  }
+  
+  .footer-heading a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+  
+  }
+  .footer-heading a:hover{
+    color: #db8500;
+    transition: 0.3s ease-out;
+  }
+
+  .footer-bottom{
+    background-color: rgb(24, 30, 31);
+    color: white;
+    font-size: 12px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+  }
+
+  .futa{
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #db8500;
+
+  }
