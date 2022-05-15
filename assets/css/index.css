@@ -1,3 +1,45 @@
-body{
-    background-color: lightcoral;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+
+body{
+    background-color: rgb(61, 59, 59);
+    padding: 0%;
+    margin: 0%;
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* NAVIGATION BAR */
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+}
+
+nav > .titule, .menu{
+    margin: 15px;
+}
+
+nav > .titule > h1{
+    font-size: 50px;
+    color: white;
+    padding: 15px;
+}
+
+nav> .menu > ul> li{
+    display: inline-block;
+    padding-top: 20px;
+    padding-right: 30px;
+    margin:15px;
+    font-size: 20px;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: white;
+}
+
