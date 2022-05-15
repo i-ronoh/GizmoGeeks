@@ -5,37 +5,46 @@
 }
 
 body{
-    background-color: white;
+    background-image: url(../images/backdoodle.jpg);
+    background-size: contain;
     padding: 0%;
     margin: 0%;
     color:white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Muli, sans-serif;
+
 }
 
 /* NAVIGATION BAR */
 
 nav{
-    background-color: rgb(3, 40, 44);
+    background-color: rgb(24, 30, 31);
     display: flex;
     justify-content:space-between;
 }
 
+
 nav > .titule, .menu{
-    margin: 15px;
+    margin: 0px;
+    font-family: "Space Mono", monospace;
+
 }
 
 nav > .titule > h1{
     font-size: 50px;
-    color: #db8500;
-    padding: 15px;
+    color: gainsboro;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: "Space Mono", monospace;
+
 }
 
 nav> .menu > ul> li{
     display: inline-block;
     padding-top: 20px;
     padding-right: 30px;
-    margin:15px;
-    font-size: 20px;
+    margin-top:50px;
+    margin-right: 20px;
+    font-size: 30px;
 }
 
 a, a:hover, a:focus, a:active {
@@ -51,35 +60,46 @@ a, a:hover, a:focus, a:active {
 
 #doodle{
     background-image: url(../images/backdoodle.jpg);
-    background-size: cover;
+    background-size: contain;
+    font-family: "Space Mono", monospace;
+
     
 }
-p{
-    height: 50vh;
-    font-size: 50px;
-    color: white;
-    font-weight: bolder;
-    text-shadow: black;
-    text-decoration-color: black;
-    display: flexbox;
-    
 
+.pee{
+  width: 75%;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  text-align: center;
+  padding: 50px;
+  border: 20px;
+  border-radius: 20px;
+  background-color: rgb(24, 30, 31);
+  margin-bottom: 100px;
+  margin-top: 100px;
+  margin-left: 200px;
 }
 
 .submit{
-  padding: 50px;
-  color: black;
-  background-color: white; 
-  border-radius: 20px;
+  padding: 30px;
+  color: white;
+  background-color: rgb(85, 221, 233); 
+  border-radius: 50px;
   font-size: 35px;
-  font-weight: 900;
+  font-weight: bolder;
+  margin-left: 800px;
+  margin-bottom: 150px;
+  font-family: "Space Mono", monospace;
+
+}
 
 /* FOOTER */
 
 .footer-title{
     background-color: rgb(24, 30, 31);
     color: white;
-    font-size: 25px;
+    font-size: 15px;
     padding-left: 75px;
     padding-bottom: 0px;
     padding-top: 20px;
@@ -92,7 +112,9 @@ p{
   .colorh2{
     color: #db8500;
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 15px;
+    font-family: "Space Mono", monospace;
+
   }
   
   #footer-container{
@@ -102,20 +124,23 @@ p{
   }
   .footer{
     width: 100%;
-    height: 25vh;
+    height: 15vh;
     background-color: rgb(24, 30, 31);
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
     margin:auto;
   
   }
   .footer-heading{
     display: inline-flexbox;
     padding-right: 60px;
-    padding-top: 10px;
-    font-size: 20px;
+    padding-top:10px;
+    font-size: 10px;
     justify-content: center;
+    padding-bottom: 0;
+    font-family: "Space Mono", monospace;
+
     
   }
 
@@ -123,7 +148,9 @@ p{
     display: inline-flexbox;
     font-size: 20px;
     font-weight: 900;
-    color: #db8500;
+    color: rgb(85, 221, 233);
+    font-family: "Space Mono", monospace;
+
     
 }
   
@@ -141,9 +168,11 @@ p{
     padding-right: 1px;
   }
   
-  .footer-heading h2{
+  .footer-heading, h2{
     margin-bottom: 2rem;
-    font-size: 16px;
+    font-size: 15px;
+    font-family: "Space Mono", monospace;
+
   
   }
   
@@ -161,17 +190,21 @@ p{
   .footer-bottom{
     background-color: rgb(24, 30, 31);
     color: white;
-    font-size: 12px;
+    font-size: 20px;
     padding-bottom: 0px;
     padding-top: 0px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     font-weight: 100;
+    padding-right: 20px;
+    font-family: "Space Mono", monospace;
+
   }
 
   .futa{
       font-size: 20px;
-      margin-bottom: 20px;
-      color: #db8500;
+      margin-bottom: 0px;
+      color: rgb(85, 221, 233);
+      font-family: "Space Mono", monospace;
 
   }
