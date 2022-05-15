@@ -1,5 +1,5 @@
 # GizmoGeeks
-GizmoGeeks is a website for the Computer Club of Script Java High School whose main aim is to quiz students who've completed the JS syllabus to see how much they've mastered. of the Quick Movers website landing pages.
+GizmoGeeks is a website for the Computer Club of Script Java High School whose main aim is to quiz students who've completed the JS syllabus to see how much they've mastered.
 ## Description
 This website demonstrates Ivy Ronoh's current progress in her pursuit of front-end development skills.
 ## Technologies Used
