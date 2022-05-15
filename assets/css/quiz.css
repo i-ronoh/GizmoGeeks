@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../images/backdoodle.jpg);
+    background-size: contain;
+    padding: 0%;
+    margin: 0%;
+    color:white;
+    font-family: Muli, sans-serif;
+
+}
+
+/* NAVIGATION BAR */
+
+nav{
+    background-color: rgb(24, 30, 31);
+    display: flex;
+    justify-content:space-between;
+}
+
+
+nav > .titule, .menu{
+    margin: 0px;
+    font-family: "Space Mono", monospace;
+
+}
+
+nav > .titule > h1{
+    font-size: 50px;
+    color: gainsboro;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: "Space Mono", monospace;
+
+}
+
+nav> .menu > ul> li{
+    display: inline-block;
+    padding-top: 20px;
+    padding-right: 30px;
+    margin-top:50px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+/* FOOTER */
+
+.footer-title{
+    background-color: rgb(24, 30, 31);
+    color: white;
+    font-size: 15px;
+    padding-left: 75px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 100;
+    height: 10vh;
+  }
+  
+  .colorh2{
+    color: #db8500;
+    font-weight: lighter;
+    font-size: 15px;
+    font-family: "Space Mono", monospace;
+
+  }
+  
+  #footer-container{
+    background-color: rgb(49, 66, 68);
+    padding-bottom:10px;
+    border-top-right-radius: 50px;
+  }
+  .footer{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(24, 30, 31);
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+    margin:auto;
+  
+  }
+  .footer-heading{
+    display: inline-flexbox;
+    padding-right: 60px;
+    padding-top:10px;
+    font-size: 10px;
+    justify-content: center;
+    padding-bottom: 0;
+    font-family: "Space Mono", monospace;
+
+    
+  }
+
+#footer-container > .footer > .footer-heading > h2{
+    display: inline-flexbox;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(85, 221, 233);
+    font-family: "Space Mono", monospace;
+
+    
+}
+  
+  .icons{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-heading1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.05px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 1px;
+  }
+  
+  .footer-heading, h2{
+    margin-bottom: 2rem;
+    font-size: 15px;
+    font-family: "Space Mono", monospace;
+
+  
+  }
+  
+  .footer-heading a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+  
+  }
+  .footer-heading a:hover{
+    color: #db8500;
+    transition: 0.3s ease-out;
+  }
+
+  .footer-bottom{
+    background-color: rgb(24, 30, 31);
+    color: white;
+    font-size: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 100;
+    padding-right: 20px;
+    font-family: "Space Mono", monospace;
+
+  }
+
+  .futa{
+      font-size: 20px;
+      margin-bottom: 0px;
+      color: rgb(85, 221, 233);
+      font-family: "Space Mono", monospace;
+
+  }
