@@ -52,8 +52,11 @@ a, a:hover, a:focus, a:active {
     color: white;
 }
 
-
-
+/* BODY */
+#intro{
+    text-align: center;
+    color: yellow;
+}
 
 
 /* FOOTER */
