@@ -7,6 +7,7 @@
     <title>GizmoGeeks</title>
     <link rel="stylesheet" href="./assets/css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono|Muli">
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
         <!--NAVIGATION BAR-->
@@ -30,53 +31,56 @@
 
             <!--BODY-->
             <section id="doodle">
+          
                 <div class="header">
                     <p class="pee">
                         <strong>
                             Congratulations on completing your JavaScript Course!!! Let's see how much you've mastered by completing the quiz below!
-                            </br>
+                            <br>
                             
                         </strong>
                     </p>
                 </div>
-            
-            
-            <div class="swali">
-                Question 1: Is Javascript an Object Oriented Programming Language? </br>
-               <input type="radio" name="qn1" id="true1"> YES </br>
-               <input type="radio" name="qn1"> NO </br>
-               
-               
-               Question 2: Does Javascript ignore extra spaces?</br>
-               <input type="radio" name="qn2"> YES </br>
-               <input type="radio" name="qn2" id="true2"> NO </br>
-               
-               
-               Question 3: What does console.log do? </br>
-               <input type="radio" name="qn3"> Perform a logarithmic function </br>
-               <input type="radio" name="qn3" id="true3"> Print out messages to the user </br>
-               <input type="radio" name="qn3"> Declaring variables </br>
-               <input type="radio" name="qn3"> None of the above </br>
+ 
+
+<div class="swali">
+1.Which is NOT a Javascript Data Type?? <br>
+<input type="radio" name="question1">Boolean<br>
+<input type="radio" name="question1">String<br>
+<input type="radio" name="question1" id="correct1">Array<br>
+<input type="radio" name="question1">Number<br>
+
+2.DThe following are types of JavaScript pop-up boxes EXCEPT??<br>
+<input type="radio" name="question2">Prompt<br>
+<input type="radio" name="question2">Alert<br>
+<input type="radio" name="quesion2" id="correct2">Query<br>
+<input type="radio" name="question2">Confirm<br>
+
+3.What does console.log do? <br>
+<input type="radio" name="question3">Perform a logarithmic function<br>
+<input type="radio" name="question3" id="correct3">Print out messages to the user <br>
+<input type="radio" name="question3">Declaring variable<br>
+<input type="radio" name="question3">None of the above<br>
+
+4.Which of the following is NOT an example of a JavaScript data structure?<br>
+<input type="radio" name="question4">Graphs<br>
+<input type="radio" name="question4">Arrays<br>
+<input type="radio" name="quesion4 id="correct4">Scripts<br>
+<input type="radio" name="question4">Trees <br>
+
+5.Which math operations are not supported by JavaScript?<br>
+<input type="radio" name="question5">Exponentiation<br>
+<input type="radio" name="question5">Modulus<br>
+<input type="radio" name="quesion5" id="correct5">Logarithms<br>
+<input type="radio" name="question5">Subtraction<br>
 
 
-               Question 4: Which of the following is not an example of a JavaScript data structure? </br>
-               <input type="radio" name="qn4"> Graphs </br>
-               <input type="radio" name="qn4"> Arrays </br>
-               <input type="radio" name="qn4" id="true4"> Scripts </br>
-               <input type="radio" name="qn4"> Trees </br>
+<input type="submit" name="submit" value="submitQuiz" onclick="result()">
 
-               Question 5: Which math operations are not supported by JavaScript? </br>
-               <input type="radio" name="qn5"> Exponentiation </br>
-               <input type="radio" name="qn5"> Modulus </br>
-               <input type="radio" name="qn5"> Subtraction </br>
-               <input type="radio" name="qn5" id="true5uestions"> Logarithms </br>
-               
-               
-               <button class="sub"><input type="submit" name="submit" value="" onclick="result()"> SUBMIT </button>
-            
+</div>
+
         </section>
 
-            <!--FOOTER SECTION-->
             <section>
             <div id="footer-container">
             
@@ -124,6 +128,5 @@
 
             </div>
         </section>
-        <script src="script.js"></script>
 </body>
 </html>
